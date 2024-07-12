@@ -1,0 +1,13 @@
+configuration {
+	terminal: "alacritty";
+	disable-history: false;
+	hover-select: false;
+	click-to-exit: true;
+	kb-remove-to-eol: "";
+	kb-accept-entry: "Return";
+	kb-row-up: "Up,Control+k";
+	kb-row-down: "Down,Control+j";
+   kb-cancel: "Escape,Control+c";
+}
+
+@theme "kanagawa"

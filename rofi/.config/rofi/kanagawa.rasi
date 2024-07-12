@@ -1,0 +1,56 @@
+* {
+    font: "MesloLGL Nerd Font Bold 18";
+    green: #76946A;
+    dark-blue: #1F1F28;
+    white: #DCD7BA;
+    grey: #727169;
+    background-color: @dark-blue;
+    border-color: @green;
+    text-color: @white;
+}
+
+window {
+    width: 800px;
+    padding: 5px;
+    border: 3px;
+    border-color: @border-color;
+    background-color: #1F1F28;
+}
+
+mainbox {
+    background-color: inherit;
+}
+
+inputbar {
+    padding: 3px 0px 3px 0px;
+}
+
+listview {
+    background-color: inherit;
+    lines: 10;
+}
+
+prompt {
+    text-color: @green;
+    padding: 0px 8px 0px 0px;
+}
+
+entry {
+    cursor: pointer;
+    placeholder-color: @grey;
+    placeholder: "search...";
+}
+
+element {
+    background-color: inherit;
+}
+
+element-text {
+    background-color: inherit;
+    text-color: inherit;
+}
+
+element selected {
+    background-color: @green;
+    text-color: @dark-blue;
+}

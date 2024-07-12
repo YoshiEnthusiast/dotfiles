@@ -1,0 +1,11 @@
+import = [
+    "~/.config/alacritty/kanagawa.toml"
+]
+
+[window]
+dimensions = { columns = 80, lines = 30 }
+padding = { x = 4, y = 4 }
+
+[font]
+normal = { family = "CaskaydiaMono NerdFont", style = "Regular" }
+size = 16
