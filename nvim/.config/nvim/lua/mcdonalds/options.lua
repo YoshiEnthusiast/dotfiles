@@ -19,6 +19,8 @@ opt.smartindent = true
 opt.splitright = true
 opt.splitbelow = true
 
+opt.termguicolors = true
+
 opt.scrolloff = 8
 
 opt.pumheight = 6

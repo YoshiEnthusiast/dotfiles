@@ -8,6 +8,6 @@ return {
             signs = false
         })
 
-        vim.keymap.set("n", "<leader>tt", "<cmd>TodoLocList<cr>")
+        vim.keymap.set("n", "<leader>tg", "<cmd>TodoLocList<cr>")
     end
 }

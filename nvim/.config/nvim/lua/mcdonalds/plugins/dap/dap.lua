@@ -35,13 +35,15 @@ return {
 
         local default_configurations = {
             c = {
-                name = "Launch",
-                type = "lldb",
-                request = "launch",
-                program = executable_path_dialog,
-                cwd = "${workspaceFolder}",
-                stopOnEntry = false,
-                args = {},
+                {
+                    name = "Launch",
+                    type = "lldb",
+                    request = "launch",
+                    program = executable_path_dialog,
+                    cwd = "${workspaceFolder}",
+                    stopOnEntry = false,
+                    args = {},
+                }
             },
             cs = {
                 {

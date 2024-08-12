@@ -7,6 +7,7 @@ return {
 
         telescope.setup({
             defaults = {
+                file_ignore_patterns = { "^include/" },
                 layout_config = {
                     horizontal = {
                         preview_cutoff = 0,

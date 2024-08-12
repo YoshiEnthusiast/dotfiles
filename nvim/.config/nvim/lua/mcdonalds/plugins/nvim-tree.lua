@@ -51,7 +51,12 @@ return {
                     enable = true
                 }
             },
+            filters = {
+                dotfiles = false
+            },
             on_attach = on_attach
         })
+
+        tree.toggle_gitignore_filter()
     end,
 }

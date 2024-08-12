@@ -31,7 +31,7 @@ set("n", "<leader>w", ":w<cr>", { desc = "Save current buffer" })
 set("n", "<A-h>", "<cmd>bprevious<cr>")
 set("n", "<A-l>", "<cmd>bnext<cr>")
 set("n", "<A-d>", "<cmd>bdelete<cr>")
-set("n", "<A-c>c", "<cmd>bufdo bd<cr>")
+set("n", "<A-c>", "<cmd>bufdo bd<cr>")
 
 -- set("n", "<C-d>", "<C-d>zz", { desc = "Move down" })
 -- set("n", "<C-u>", "<C-u>zz", { desc = "Move up" })
