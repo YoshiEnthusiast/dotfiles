@@ -20,6 +20,7 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ to
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle
 
 exec setxkbmap -layout us,ru -option grp:win_space_toggle
+exec setxkbmap -option ctrl:nocaps
 
 floating_modifier $mod
 
@@ -125,3 +126,15 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
+
+for_window [class="Nemo"] floating enable, resize set 1000 650
+for_window [class="File-roller"] floating enable, resize set 1000 650
+for_window [class="Blueman-manager"] floating enable, resize set 1000 650
+
+for_window [class="Celluloid"] floating enable
+
+for_window [class="Nvidia-settings"] floating enable, resize set 800 600
+for_window [class="Nitrogen"] floating enable, resize set 800 600
+
+for_window [title="Blanket"] floating enable, resize set 450 600, move workspace 3
+for_window [title="Friends - Discord"] floating enable, resize set 1500 850, move position 50 50, move workspace 2
